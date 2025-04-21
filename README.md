@@ -4,9 +4,7 @@ Welcome to the **My First Projects** repository! This repository contains projec
 
 ## Table of Contents
 
-- [I am a passionate and curious tech enthusiast with a solid foundation in Python programming and basic Arduino coding. He has worked on a variety of Arduino-based projects and has also explored the exciting world of the Internet of Things (IoT). By combining the knowledge of coding and electronics, I have developed several IoT projects that involve sensors, connectivity modules, and real-time data monitoring. Hands-on experience reflects a strong interest in building smart systems and learning how technology can be used to solve real-world problems.
-
-](#introduction)
+- #Introduction I am a passionate and curious tech enthusiast with a solid foundation in Python programming and basic Arduino coding. He has worked on a variety of Arduino-based projects and has also explored the exciting world of the Internet of Things (IoT). By combining the knowledge of coding and electronics, I have developed several IoT projects that involve sensors, connectivity modules, and real-time data monitoring. Hands-on experience reflects a strong interest in building smart systems and learning how technology can be used to solve real-world problems.
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)

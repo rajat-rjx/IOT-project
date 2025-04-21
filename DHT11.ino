@@ -1,25 +1,24 @@
-// Define the pin connections
-const int irSensorPin = 7;  // IR sensor output pin connected to digital pin 7
-const int ledPin = 4;      // LED connected to digital pin 13 (optional)
+// CODE__BY__rajat_rjx
+const int irSensorPin = 7;  
+const int ledPin = 4;     
 
 void setup() {
-  pinMode(irSensorPin, INPUT);  // Set IR sensor pin as input
-  pinMode(ledPin, OUTPUT);      // Set LED pin as output (optional)
-  Serial.begin(9600);           // Begin serial communication for debugging
+  pinMode(irSensorPin, INPUT);   
+  pinMode(ledPin, OUTPUT);      
+  Serial.begin(9600);           
 }
 
 void loop() {
-  int sensorValue = digitalRead(irSensorPin);  // Read the value from the IR sensor
-
+  int sensorValue = digitalRead(irSensorPin);  
   if (sensorValue == LOW) {
-    // Obstacle detected
-    digitalWrite(ledPin, HIGH);  // Turn on LED (optional)
+    
+    digitalWrite(ledPin, HIGH);
     Serial.println("Obstacle detected!");
   } else {
-    // No obstacle
-    digitalWrite(ledPin, LOW);   // Turn off LED (optional)
+ 
+    digitalWrite(ledPin, LOW); 
     Serial.println("No obstacle.");
   }
 
-  delay(100);  // Small delay for stability
+  delay(100);
 }

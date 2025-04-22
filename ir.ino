@@ -1,6 +1,4 @@
-/*Door lock system with Arduino Nano
-   Home Page
-*/
+//code by rajat_rjx
 
 #include <Servo.h>
 #include <LiquidCrystal_I2C.h>
